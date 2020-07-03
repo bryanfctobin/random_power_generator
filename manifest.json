@@ -1,0 +1,18 @@
+{
+    "name": "Random Power Generator",
+    "version": "1.0",
+    "description": "Random Power Generator",
+    "permissions": ["activeTab", "storage", "tabs"],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "icons": {
+        "16": "images/random.png",
+        "32": "images/random.png",
+        "48": "images/random.png",
+        "128": "images/random.png"
+    },
+    "browser_action": {},
+    "manifest_version": 2
+}
